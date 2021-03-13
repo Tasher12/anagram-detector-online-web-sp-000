@@ -6,13 +6,13 @@ class Anagram
   
   def initialize(word)
     @word = word
+    words = %W()
   end
   
   answer = []
   
   def match(word)
     answer = []
-    words = %w()
     words.each do |mix|
       mix.split("").sort 
       if mix.sort == word.sort 
