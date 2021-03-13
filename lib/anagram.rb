@@ -11,6 +11,7 @@ class Anagram
   answer = []
   
   def match(word)
+    answer = []
     words = %w()
     words.each do |mix|
       mix.split("").sort 
