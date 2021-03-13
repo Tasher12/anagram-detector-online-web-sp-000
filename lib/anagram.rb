@@ -11,8 +11,8 @@ class Anagram
   
   def match(word)
     words = %w()
-    words.split("").each do |mix|
-      if mix.sort == word.sort 
+    words.each do |mix|
+      if mix.split("").sort == word.sort 
         return mix
     end  
   end 
