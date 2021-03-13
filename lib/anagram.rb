@@ -10,7 +10,7 @@ class Anagram
   
   answer = []
   
-  def match(words)
+  def match(word)
     words = %w()
     words.each do |mix|
       mix.split("").sort 
@@ -18,6 +18,7 @@ class Anagram
       answer << mix
     end  
     end
+    answer 
   end 
   answer
   
