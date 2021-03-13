@@ -9,8 +9,8 @@ class Anagram
   end
   
   
-  def match(word)
-    word.each {|mix| mix.split("").sort == word.split("").sort}
+  def match(arr)
+    word.each {|mix| mix.split("").sort == arr.split("").sort}
 
   end
   
