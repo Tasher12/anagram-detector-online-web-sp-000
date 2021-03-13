@@ -17,8 +17,7 @@ class Anagram
       if mix.sort == word.sort 
       answer << mix
     end  
-    end
-    answer 
+  end 
   end 
   answer
   
