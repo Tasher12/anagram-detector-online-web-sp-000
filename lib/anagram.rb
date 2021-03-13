@@ -8,9 +8,9 @@ class Anagram
     @word = word
   end
   
+  answer = []
   
   def match(word)
-    answer = []
     words = %w()
     words.split("").each do |mix|
       if mix.sort == word.sort 
