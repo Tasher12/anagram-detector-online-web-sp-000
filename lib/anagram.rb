@@ -12,8 +12,8 @@ class Anagram
   
   def match(word)
     answer = []
-    words = %w()
-    words.split("").each do |mix|
+    words = []
+    words.each do |mix|
       if mix.sort == word.sort 
       answer << mix 
     end  
