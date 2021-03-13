@@ -15,7 +15,7 @@ class Anagram
     words = %w()
     words.split("").each do |mix|
       if mix.sort == word.sort 
-      mix << answer
+      answer << mix 
     end  
   end 
   end 
