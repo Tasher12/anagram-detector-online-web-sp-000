@@ -13,8 +13,7 @@ class Anagram
   def match(word)
     answer = []
     words = %w()
-    words.each do |mix|
-      mix.split("").sort 
+    words.split("").each do |mix|
       if mix.sort == word.sort 
       mix << answer
     end  
