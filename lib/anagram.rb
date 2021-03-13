@@ -16,7 +16,6 @@ class Anagram
         return mix
     end  
   end 
-  end 
-  answer
+  end
   
 end
