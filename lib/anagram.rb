@@ -10,7 +10,7 @@ class Anagram
   
   
   def match(word)
-    word.each {|mix| mix.split("").sort == word.sort}
+    word.each {|mix| mix.split("").sort }
     binding.pry 
   end
   
